@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python - More Data Structures: Set, Dictionary
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKwOuoKPwX3VxWCCjMAjdq3PaMyFW-Cw4WA&usqp=CAU)
 # Learning Objectives
@@ -19,3 +20,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ![](https://files.realpython.com/media/Python-Tricks-Chapter-on-Data-Structures_Watermarked.b5d9d86333c3.jpg)
 
+=======
+More Data Structures
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

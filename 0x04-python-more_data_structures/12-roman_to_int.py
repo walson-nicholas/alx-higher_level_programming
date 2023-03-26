@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 def to_subtract(list_num):
     to_sub = 0
     max_list = max(list_num)
@@ -38,3 +39,27 @@ def roman_to_int(roman_string):
     num += to_subtract(list_num)
 
     return (num)
+=======
+def roman_to_int(roman_string):
+    if roman_string is not None and type(roman_string) == str:
+        rom_dict = {
+            'I': 1,
+            'V': 5,
+            'X': 10,
+            'L': 50,
+            'C': 100,
+            'D': 500,
+            'M': 1000
+        }
+
+        tot = 0
+        prev = 1001
+        for c in roman_string:
+            if rom_dict[c] > prev:
+                tot += rom_dict[c] - (prev * 2)
+            else:
+                tot += rom_dict[c]
+            prev = rom_dict[c]
+        return tot
+    return 0
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

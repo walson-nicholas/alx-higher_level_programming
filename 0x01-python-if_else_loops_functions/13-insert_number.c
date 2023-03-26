@@ -1,6 +1,7 @@
 #include "lists.h"
 
 /**
+<<<<<<< HEAD
  * insert_node - Inserts a number into a sorted singly-linked list.
  * @head: A pointer the head of the linked list.
  * @number: The number to insert.
@@ -8,6 +9,16 @@
  * Return: If the function fails - NULL.
  *         Otherwise - a pointer to the new node.
  */
+=======
+* insert_node - Inserts a number into a sorted singly-linked list.
+* @head: A pointer the head of the linked list.
+* @number: The number to insert.
+* Author - Gabriel Dan alias Zeus
+* Return: If the function fails - NULL.
+*         Otherwise - a pointer to the new node.
+*/
+
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *node = *head, *new;

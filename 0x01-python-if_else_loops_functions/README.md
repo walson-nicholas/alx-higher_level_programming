@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## This Directory was Based on
 # LOOPS(if, Else, Elif) with some touch of C (linked list) 
 
@@ -13,3 +14,6 @@
 - Pycodestyle – Style Guide for Python Code
 
 ![loops](https://www.pylenin.com/content/images/size/w1200/2022/02/Why-learn-Python-24-.png)
+=======
+# 0x01-python-if_else_loops_functions
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

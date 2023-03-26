@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 
 def safe_print_list_integers(my_list=[], x=0):
     """Print the first x elements of a list that are integers.
@@ -17,3 +18,16 @@ def safe_print_list_integers(my_list=[], x=0):
             continue
     print("")
     return (ret)
+=======
+def safe_print_list_integers(my_list=[], x=0):
+    n = 0
+    for i in range(x):
+        item = my_list[i]
+        try:
+            print("{:d}".format(item), end="")
+            n += 1
+        except Exception:
+            continue
+    print("")
+    return n
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

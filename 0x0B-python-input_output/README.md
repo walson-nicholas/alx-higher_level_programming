@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python - Input/Output
 ![](https://raw.githubusercontent.com/thecoducer/python_programs/master/Images/python-harry-potter.jpg)
 # Learning Objectives
@@ -17,3 +18,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What is deserialization
 - How to convert a Python data structure to a JSON string
 - How to convert a JSON string to a Python data structure
+=======
+input output
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

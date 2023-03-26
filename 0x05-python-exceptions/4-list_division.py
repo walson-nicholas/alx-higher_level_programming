@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 
 def list_division(my_list_1, my_list_2, list_length):
     """Divides two lists element by element.
@@ -25,3 +26,21 @@ def list_division(my_list_1, my_list_2, list_length):
         finally:
             new_list.append(div)
     return (new_list)
+=======
+def list_division(my_list_1, my_list_2, list_length):
+    my_list_res = []
+    for i in range(list_length):
+        res = 0
+        try:
+            a, b = (my_list_1[i], my_list_2[i])
+            res = a / b
+        except TypeError:
+            print("wrong type")
+        except ZeroDivisionError:
+            print("division by 0")
+        except IndexError:
+            print("out of range")
+        finally:
+            my_list_res.append(res)
+    return my_list_res
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

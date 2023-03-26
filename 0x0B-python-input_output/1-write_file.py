@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Defines a file-writing function."""
 
 
@@ -11,4 +12,20 @@ def write_file(filename="", text=""):
         The number of characters written.
     """
     with open(filename, "w", encoding="utf-8") as f:
+=======
+"""
+Contains the function "wrtie_file"
+"""
+
+
+def write_file(filename="", text=""):
+    """ Function
+    Args:
+        filename: filename
+        text: text
+    Raises
+        Exception: opened
+    """
+    with open(filename, 'w', encoding="utf-8") as f:
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3
         return f.write(text)
