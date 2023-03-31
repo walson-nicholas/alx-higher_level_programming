@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+for i in range(100):
+    if int(i / 10) != i % 10 and int(i / 10) < i % 10:
+        print("{}{}".format(int(i / 10), i % 10), end="")
+        if (i != 89):
+            print(", ", end="")
+print("")
+=======
 
 for digit1 in range(0, 10):
     for digit2 in range(digit1 + 1, 10):
@@ -6,3 +14,4 @@ for digit1 in range(0, 10):
             print("{}{}".format(digit1, digit2))
         else:
             print("{}{}".format(digit1, digit2), end=", ")
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

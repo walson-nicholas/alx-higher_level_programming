@@ -1,4 +1,19 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+
+"""Define a class Square."""
+
+
+class Square:
+    """Represent a square."""
+
+    def __init__(self, size=0, position=(0, 0)):
+        """Initialize a new square.
+        Args:
+            size (int): The size of the new square.
+            position (int, int): The position of the new square.
+        """
+=======
 """creates class Square."""
 
 
@@ -17,11 +32,36 @@ class Square:
             None
         """
 
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3
         self.size = size
         self.position = position
 
     @property
     def size(self):
+<<<<<<< HEAD
+        """Get/set the current size of the square."""
+        return (self.__size)
+
+    @size.setter
+    def size(self, value):
+        if not isinstance(value, int):
+            raise TypeError("size must be an integer")
+        elif value < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = value
+
+    @property
+    def position(self):
+        """Get/set the current position of the square."""
+        return (self.__position)
+
+    @position.setter
+    def position(self, value):
+        if (not isinstance(value, tuple) or
+                len(value) != 2 or
+                not all(isinstance(num, int) for num in value) or
+                not all(num >= 0 for num in value)):
+=======
         """
         getter of size
         Return:
@@ -69,10 +109,27 @@ class Square:
         if type(value[0]) != int or value[0] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         if type(value[1]) != int or value[1] < 0:
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
+<<<<<<< HEAD
+        """Return the current area of the square."""
+        return (self.__size * self.__size)
+
+    def my_print(self):
+        """Print the square with the # character."""
+        if self.__size == 0:
+            print("")
+            return
+
+        [print("") for i in range(0, self.__position[1])]
+        for i in range(0, self.__size):
+            [print(" ", end="") for j in range(0, self.__position[0])]
+            [print("#", end="") for k in range(0, self.__size)]
+            print("")
+=======
         """
         get area
         Return:
@@ -93,3 +150,4 @@ class Square:
             for i in range(self.__size):
                 print(' '*self.__position[0], end='')
                 print('#'*self.__size)
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

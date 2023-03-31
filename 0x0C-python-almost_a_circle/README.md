@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+# Python - Almost a circle
+![](https://c.tenor.com/9_qAOoqs-JkAAAAM/futurama-fry.gif)
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# General
+- What is Unit testing and how to implement it in a large project
+- How to serialize and deserialize a Class
+- How to write and read a JSON file
+- What is *args and how to use it
+- What is **kwargs and how to use it
+- How to handle named arguments in a function
+
+![]()
+=======
 # 0x0C-python-almost_a_circle
 
 
@@ -35,3 +51,4 @@ Test case for ```square.py```.
 * [Args and Kwargs in Python](https://alx-intranet.hbtn.io/rltoken/7gc6UzxSL81HcuAwklUbuQ)
 * [unittest module](https://alx-intranet.hbtn.io/rltoken/soictNXCPE18ASL3INoeew)
 * [Python Documentation](https://docs.python.org/)
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3

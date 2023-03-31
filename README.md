@@ -8,7 +8,11 @@ Like C, Python also has a linter / style guide like Betty, called PEP8, also now
 ## Enjoy!
 
 - Guillaume
+<<<<<<< HEAD
+- ### Nwabueze Franklin(solo)
+=======
 - ### Nicholas Asimiea(solo)
+>>>>>>> 2276ad50c30a4f134bae58729cfd329eeb95acb3
 ![alx_image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
 
 ## The Zen of Python, by Tim Peters
